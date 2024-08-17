@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=El+Messiri:wght@400..700&display=swap'); 
+.first-section {
+
+    background-image: url(a2.jpg);
+    background-size: cover;
+    
+
+}
+
+.first-section-1{
+
+    height: 500px;
+
+}
+
+.font-style {
+
+    color: white;
+    font-family: "Oswald", sans-serif;
+
+}
+
+@media only screen and (max-width:600px) {
+    
+    .btn{
+        gap: 10px;
+    }
+
+}
+
+
+
+@media only screen and (max-width:600px) {
+
+    .first-section-1{
+        height: auto;
+    }
+    
+}
+
+.first-section-2 {
+
+    width: 100%;
+
+}
+
+@media only screen and (max-width:600px){
+    .first-section-2{
+        width: 100%;
+    }
+}
